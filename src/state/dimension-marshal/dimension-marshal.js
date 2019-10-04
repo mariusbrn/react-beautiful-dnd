@@ -181,6 +181,7 @@ export default (callbacks: Callbacks) => {
       callbacks: droppableCallbacks,
     };
 
+    console.log(descriptor, collection);
     invariant(!collection, 'Cannot add a Droppable during a drag');
   };
 
